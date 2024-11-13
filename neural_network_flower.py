@@ -5,4 +5,5 @@ y = np.array(([1], [0], [1],[0],[1],[0],[1],[0]), dtype=float) # 1 = red, 0 = bl
 
 x_entry = x_entry/np.amax(x_entry, axis=0) # scaling the data to 0-1
 
-print(x_entry)
+X = np.split(x_entry, [8])[0] # training data
+xPredicted = np.split(x_entry, [8])[1] # testing data
