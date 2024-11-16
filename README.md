@@ -1,6 +1,10 @@
 # Simple Neural Network for Flower Detection
 
-This project implements a simple neural network to classify flowers as either red or blue based on their features. The neural network is built from scratch using NumPy.
+This project implements a simple neural network to classify flowers as either red or blue based on their features. 
+The neural network is built from scratch using `NumPy` and I used `Matplotlib` to visualize the loss evolution during the training process.
+
+## Loss Evolution
+![Loss Evolution](charts/loss_evolution.png)
 
 ## Dataset
 
@@ -16,6 +20,7 @@ The target variable is:
 
 - Python 3.x
 - NumPy
+- Matplotlib
 
 ## Setup
 
