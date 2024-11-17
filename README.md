@@ -4,7 +4,7 @@ This project implements a simple neural network to classify flowers as either re
 The neural network is built from scratch using `NumPy` and I used `Matplotlib` to visualize the loss evolution during the training process.
 
 ## Loss Evolution
-![Loss Evolution](charts/loss_evolution.png)
+![Loss Evolution](images/loss_evolution.png)
 
 ## Dataset
 
